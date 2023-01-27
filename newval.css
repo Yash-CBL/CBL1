@@ -1,0 +1,128 @@
+:root {
+    --primary-color: rgb(11, 78, 179);
+  }
+  label{
+    background-color: black;}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Montserrat, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  background-image: url(/form-validation/images/bodybg.jpg);
+  background-size: cover;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .width-50 {
+    width: 50%;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  
+  .form {
+  
+    box-shadow: 5px 5px 25px 10px black;
+    width: clamp(320px, 40%, 430px);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 50px;
+    background-image: url(/form-validation/images/newbg.jpg);
+    background-size: cover;
+    color: #8bc542;
+  }
+  @keyframes animate{
+  
+    from{transform: scale(0);  }
+    to{transform: scale(1);}
+  
+  }
+  .form-step {
+    display: none;
+    transform-origin: top;
+    animation-name: animate;
+    animation-duration: 0.5s;
+  }
+  
+  
+  .form-step-active {
+    display: block;
+  }
+  
+  .input-group {
+    margin: 2rem 0;
+  }
+  #valbtn{
+
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #f3f3f3;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  
+  
+  
+  .btns-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .btn {
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #f3f3f3;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+  }
+  .sbtbtn{
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #f3f3f3;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
