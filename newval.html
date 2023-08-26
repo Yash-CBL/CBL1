@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="newval.css" />
+  <script src="newval.jsx" defer></script>
+  <title>Registraion Form</title>
+</head>
+
+<body>
+  <form action="#" class="form">
+    <img src="/images/codebrew-white-logo.svg" alt="" style="    width: 58%; margin-left: 25%;">
+    <h1 class="text-center">Register to Brew</h1>
+
+    <!-- Steps -->
+    <div class="form-step form-step-active">
+      <div class="input-group">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+
+      </div>
+      <div class="input-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" />
+        <p id="error1" style="color: red;background-color:black;"></p>
+      </div>
+      <div class="">
+        <a href="#" class="btn btn-next width-50 ml-auto next1">Next</a>
+      </div>
+    </div>
+    <div class="form-step">
+      <div class="input-group">
+        <label for="phone">Phone</label>
+        <input type="number" name="phone" id="phone" />
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <p id="error2" style="color: red;background-color:black;"></p>
+      </div>
+      <div class="btns-group">
+        <a href="#" class="btn btn-prev">Previous</a>
+        <a href="#" class="btn btn-next next2">Next</a>
+      </div>
+    </div>
+    <div class="form-step">
+      <div class="input-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+      <div class="input-group">
+        <label for="ID">Nationality</label>
+        <input type="text" name="ID" id="ID" />
+        <p id="error3" style="color: red;background-color:black;"></p>
+      </div>
+      <div class="btns-group">
+        <a href="#" class="btn btn-prev">Previous</a>
+        <a href="#" class="btn btn-next next3">Next</a>
+      </div>
+    </div>
+    <div class="form-step">
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div class="input-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPassword" />
+        <p id="error4" style="color: red;background-color:black;"></p>
+      </div>
+      <div class="btns-group">
+        <a href="#" class="btn btn-prev">Previous</a>
+        <button value="Submit" class="btn submitbtn" onmouseover="disdata()">Submit</button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
