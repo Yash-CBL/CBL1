@@ -12,7 +12,7 @@
   body {
     font-family: Montserrat, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-  background-image: url(/images/bodybg.jpg);
+  background-image: url('https://img.freepik.com/premium-photo/white-office-desk-table-with-laptop-computer-blank-notebook_34435-3601.jpg?w=1480');
   background-size: cover;
     display: grid;
     place-items: center;
@@ -53,7 +53,7 @@
     border: 1px solid #ccc;
     border-radius: 20px;
     padding: 50px;
-    background-image: url(/images/bg.jpg);
+    background-image: url('https://img.goodfon.com/wallpaper/nbig/3/6d/chiornyi-fon-devushka-naushniki.webp');
     background-size: cover;
     color: #8bc542;
   }
